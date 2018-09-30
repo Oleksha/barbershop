@@ -26,3 +26,8 @@ a {
 	
 	background-color: #000000;
 }
+
+.site-navigation,
+.user-navigation {
+	list-style: none;
+}
