@@ -65,3 +65,8 @@ a {
 	background-position: 0 0;
 	background-repeat: repeat;
 }
+
+.index-columns h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
