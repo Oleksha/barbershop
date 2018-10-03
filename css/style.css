@@ -78,3 +78,8 @@ a {
 .news-item time {
 	text-transform: none;
 }
+
+.gallery-content {
+	background-color: #cccccc;
+	border: 7px solid #ffffff;
+}
