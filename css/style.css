@@ -47,3 +47,7 @@ a {
 .features-list {
 	list-style: none;
 }
+
+.feature-item {
+	text-align: center;
+}
