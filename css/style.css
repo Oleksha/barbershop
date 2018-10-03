@@ -56,3 +56,12 @@ a {
 	font-size: 30px;
 	line-height: 42px;
 }
+
+.index-columns {
+	color: #000000;
+	
+	background-color: #f8f5f2;
+	background-image: url(../img/pattern-light.jpg);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
