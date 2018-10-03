@@ -70,3 +70,7 @@ a {
 	font-size: 30px;
 	line-height: 42px;
 }
+
+.news-list {
+	list-style: none;
+}
