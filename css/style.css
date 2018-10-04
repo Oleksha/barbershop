@@ -112,3 +112,12 @@ a {
 .appointment-item input:focus {
 	border-color: #663d15;
 }
+
+.main-footer {
+	color: #ffffff;
+	
+	background-color: #212121;
+	background-image: url(../img/pattern-dark.jpg);
+	background-position: 0 0;
+	background-repeat: repeat;
+}
