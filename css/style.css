@@ -147,3 +147,10 @@ a {
 .footer-copyright {
 	text-align: center;
 }
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+	color: #000000;
+	
+	background-color: #ffffff;
+}
