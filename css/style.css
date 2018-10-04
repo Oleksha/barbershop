@@ -187,3 +187,8 @@ a {
 .login-checkbox:focus {
 	color: #663d15;
 }
+
+.restrore {
+	color: #000000;
+	text-decoration: underline;
+}
