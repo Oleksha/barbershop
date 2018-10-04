@@ -121,3 +121,8 @@ a {
 	background-position: 0 0;
 	background-repeat: repeat;
 }
+
+.footer-contacts a {
+	color: #ffffff;
+	text-decoration: underline;
+}
