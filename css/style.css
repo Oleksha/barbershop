@@ -131,3 +131,7 @@ a {
 .footer-contacts a:focus {
 	text-decoration: none;
 }
+
+.footer-social {
+	text-align: center;
+}
