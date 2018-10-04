@@ -135,3 +135,7 @@ a {
 .footer-social {
 	text-align: center;
 }
+
+.footer-social ul {
+	list-style: none;
+}
