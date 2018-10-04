@@ -192,3 +192,8 @@ a {
 	color: #000000;
 	text-decoration: underline;
 }
+
+.restrore:hover,
+.restrore:focus {
+	text-decoration: none;
+}
