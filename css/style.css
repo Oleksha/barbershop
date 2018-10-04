@@ -126,3 +126,8 @@ a {
 	color: #ffffff;
 	text-decoration: underline;
 }
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+	text-decoration: none;
+}
