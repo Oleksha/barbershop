@@ -163,3 +163,8 @@ a {
 	background-position: 0 0;
 	background-repeat: repeat;
 }
+
+.modal h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
