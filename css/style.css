@@ -178,3 +178,7 @@ a {
 	background-color: #f9f6f3;
 	border: 2px solid #000000;
 }
+
+.login-form input:focus {
+	border-color: #663d15;
+}
