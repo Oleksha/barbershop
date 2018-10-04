@@ -182,3 +182,8 @@ a {
 .login-form input:focus {
 	border-color: #663d15;
 }
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+	color: #663d15;
+}
