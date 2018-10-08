@@ -333,6 +333,8 @@ input[type="radio"].visually-hidden {
 
 .appointment-item {
 	width: 140px;
+	margin: 0;
+	margin-bottom: 10px;
 }
 
 .appointment-item input {
