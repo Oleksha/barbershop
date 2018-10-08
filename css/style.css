@@ -70,6 +70,10 @@ a {
 	background-color: #000000;
 }
 
+.main-navigation-wrapper .container {
+	display: flex;
+}
+
 .site-navigation,
 .user-navigation {
 	margin: 0;
