@@ -272,6 +272,9 @@ input[type="radio"].visually-hidden {
 }
 
 .gallery-content {
+	height: 164px;
+	margin: 0;
+	
 	background-color: #cccccc;
 	border: 7px solid #ffffff;
 }
