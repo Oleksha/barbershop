@@ -424,6 +424,16 @@ input[type="radio"].visually-hidden {
 	background-color: #000000;
 }
 
+.social-button:hover,
+.social-button:focus {
+	background-color: #ffffff;
+}
+
+.social-button:hover path,
+.social-button:focus path {
+	fill: #000000;
+}
+
 .footer-copyright {
 	width: 150px;
 	margin: 0;
