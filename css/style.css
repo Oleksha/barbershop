@@ -206,6 +206,10 @@ input[type="radio"].visually-hidden {
 	transform: rotate(45deg);
 }
 
+.feature-item p {
+	margin: 0 10px;
+}
+
 .index-columns {
 	display: flex;
 	justify-content: space-between;
