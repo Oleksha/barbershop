@@ -181,6 +181,8 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item h3 {
+	position: relative;
+	
 	margin: 0;
 	margin-bottom: 60px;
 	
