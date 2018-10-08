@@ -128,7 +128,7 @@ input[type="radio"].visually-hidden {
 }
 
 .user-navigation {
-	width: 140px;
+	max-width: 140px;
 }
 
 .features {
