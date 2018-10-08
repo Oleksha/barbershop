@@ -131,6 +131,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	padding: 50px 80px;
+	margin-bottom: 35px;
 	color: #000000;
 	
 	background-color: #f8f5f2;
