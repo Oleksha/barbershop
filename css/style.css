@@ -77,6 +77,14 @@ a {
 	background-color: #242424;
 }
 
+.site-navigation {
+	width: 620px;
+}
+
+.user-navigation {
+	width: 140px;
+}
+
 .features-list {
 	list-style: none;
 }
