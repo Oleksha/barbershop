@@ -128,6 +128,8 @@ a {
 }
 
 .index-columns {
+	display: flex;
+	justify-content: space-between;
 	padding: 50px 80px;
 	color: #000000;
 	
