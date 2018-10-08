@@ -43,8 +43,10 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
-	font: inherit;
+	display: inline-block;
+	padding: 10px 30px;
 	
+	font: inherit;	
 	text-align: center;
 	color: #ffffff;
 	vertical-align: middle;
