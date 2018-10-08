@@ -111,6 +111,8 @@ a {
 }
 
 .feature-item {
+	width: 300px;
+	
 	text-align: center;
 }
 
