@@ -279,6 +279,11 @@ input[type="radio"].visually-hidden {
 	border: 7px solid #ffffff;
 }
 
+.gallery-content img {
+	width: 286px;
+	height: 164px;
+}
+
 .contacts {
 	width: 380px;
 }
