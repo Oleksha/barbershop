@@ -197,6 +197,7 @@ a {
 }
 
 .footer-contacts {
+	width: 320px;
 	margin: 0;
 }
 
@@ -211,6 +212,7 @@ a {
 }
 
 .footer-social {
+	width: 145px;
 	text-align: center;
 }
 
@@ -223,6 +225,7 @@ a {
 }
 
 .footer-copyright {
+	width: 150px;
 	margin: 0;
 	text-align: center;
 }
