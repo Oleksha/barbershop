@@ -232,6 +232,7 @@ a {
 .footer-copyright {
 	width: 150px;
 	margin: 0;
+	margin-left: auto;
 	text-align: center;
 }
 
