@@ -414,6 +414,11 @@ input[type="radio"].visually-hidden {
 	list-style: none;
 }
 
+.footer-social b {
+	display: block;
+	margin-bottom: 15px;
+}
+
 .social-button {
 	display: flex;
 	align-items: center;
