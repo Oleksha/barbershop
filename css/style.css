@@ -142,12 +142,20 @@ a {
 	line-height: 42px;
 }
 
+.news {
+	width: 380px;
+}
+
 .news-list {
 	list-style: none;
 }
 
 .news-item time {
 	text-transform: none;
+}
+
+.gallery {
+	width: 300px;
 }
 
 .gallery-content {
