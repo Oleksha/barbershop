@@ -103,6 +103,10 @@ a {
 	width: 140px;
 }
 
+.features {
+	margin-bottom: 80px;
+}
+
 .features-list {
 	display: flex;
 	justify-content: space-between;
