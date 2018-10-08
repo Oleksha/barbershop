@@ -330,6 +330,10 @@ input[type="radio"].visually-hidden {
 	flex-wrap: wrap;
 }
 
+.appointment-item {
+	width: 140px;
+}
+
 .appointment-item input {
 	font: inherit;
 	
