@@ -133,6 +133,10 @@ input[type="radio"].visually-hidden {
 	max-width: 140px;
 }
 
+.user-navigation .login-link {
+	padding-left: 50px;
+}
+
 .features {
 	margin-bottom: 80px;
 }
