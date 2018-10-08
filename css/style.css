@@ -245,6 +245,10 @@ input[type="radio"].visually-hidden {
 	list-style: none;
 }
 
+.news-item {
+	margin-bottom: 25px;
+}
+
 .news-item time {
 	text-transform: none;
 }
