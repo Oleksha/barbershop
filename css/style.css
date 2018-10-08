@@ -271,6 +271,12 @@ input[type="radio"].visually-hidden {
 	width: 300px;
 }
 
+.gallery-container {
+	position: relative;
+	
+	height: 260px;
+}
+
 .gallery-content {
 	height: 164px;
 	margin: 0;
