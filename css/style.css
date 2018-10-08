@@ -337,6 +337,12 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 10px;
 }
 
+.appointment-item label {
+	display: block;
+	margin-bottom: 9px;
+	margin-left: 15px;
+}
+
 .appointment-item input {
 	font: inherit;
 	
