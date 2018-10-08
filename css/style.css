@@ -451,6 +451,11 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 15px;
 }
 
+.footer-copyright .button {
+	display: block;
+	margin-right: 0;
+}
+
 .footer-copyright .button:hover,
 .footer-copyright .button:focus {
 	color: #000000;
