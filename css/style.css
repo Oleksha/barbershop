@@ -89,6 +89,12 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 75px;
 }
 
+.inner-page .main-header {
+	margin-bottom: 70px;
+	
+	background-color: #000000;
+}
+
 .main-navigation {
 	display: flex;
 	flex-direction: column;
