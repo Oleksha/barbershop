@@ -475,11 +475,6 @@ input[type="radio"].visually-hidden {
 	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);	
 }
 
-.modal h2 {
-	font-size: 30px;
-	line-height: 42px;
-}
-
 .modal-login {
 	top: 120px;
 	left: 50%;
@@ -525,6 +520,14 @@ input[type="radio"].visually-hidden {
 
 .modal-close::after {
 	transform: rotate(-45deg);
+}
+
+.modal-login h2 {
+	margin: 0;
+	margin-bottom: 20px;
+	
+	font-size: 30px;
+	line-height: 42px;
 }
 
 .login-form input[type="text"],
