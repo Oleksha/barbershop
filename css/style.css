@@ -563,6 +563,7 @@ input[type="radio"].visually-hidden {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 15px 0;
 }
 
 .login-icon-user {
