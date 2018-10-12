@@ -542,6 +542,11 @@ input[type="radio"].visually-hidden {
 
 .login-form input[type="text"],
 .login-form input[type="password"] {
+	box-sizing: border-box;
+	width: 300px;
+	padding: 10px 15px;
+	padding-right: 40px;
+	
 	font: inherit;
 	color: #000000;
 	text-transform: uppercase;
