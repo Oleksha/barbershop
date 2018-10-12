@@ -499,10 +499,32 @@ input[type="radio"].visually-hidden {
 	
 	font-size: 0;
 	
-	background-color: red;
+	background-color: transparent;
 	border: 0;
 	
 	cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+	content: "";
+	
+	position: absolute;
+	top: 10px;
+	left: 2px;
+	
+	width: 19px;
+	height: 3px;
+	
+	background-color: #d0d0d0;
+}
+
+.modal-close::before {
+	transform: rotate(45deg);
+}
+
+.modal-close::after {
+	transform: rotate(-45deg);
 }
 
 .login-form input[type="text"],
