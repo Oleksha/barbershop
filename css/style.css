@@ -477,6 +477,11 @@ input[type="radio"].visually-hidden {
 	line-height: 42px;
 }
 
+.modal-login {
+	width: 300px;
+	padding: 50px 80px;
+}
+
 .login-form input[type="text"],
 .login-form input[type="password"] {
 	font: inherit;
