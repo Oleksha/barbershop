@@ -606,6 +606,28 @@ input[type="radio"].visually-hidden {
 	border-color: #663d15;
 	outline:  5px auto -webkit-focus-ring-color;
 }
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+	content: "";
+	
+	position: absolute;
+	top: 8px;
+	left: 1px;
+	
+	width: 15px;
+	height: 2px;
+	
+	background-color: #000000;
+	
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+	transform: rotate(45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+	transform: rotate(-45deg);
+}
 
 .restrore {
 	color: #000000;
