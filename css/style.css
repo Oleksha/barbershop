@@ -464,6 +464,7 @@ input[type="radio"].visually-hidden {
 }
 
 .modal {
+	position: fixed;
 	color: #000000;
 	
 	background-color: #f8f3f0;
@@ -478,7 +479,11 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-login {
+	top: 120px;
+	left: 50%;
+	
 	width: 300px;
+	margin-left: -230px;
 	padding: 50px 80px;
 }
 
