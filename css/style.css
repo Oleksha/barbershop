@@ -107,6 +107,11 @@ input[type="radio"].visually-hidden {
 	background-color: transparent;
 }
 
+.inner-page .main-navigation {
+	align-items: flex-start;
+	flex-direction: row;
+}
+
 .main-header-logo {
 	order: 2;
 }
