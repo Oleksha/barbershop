@@ -578,9 +578,28 @@ input[type="radio"].visually-hidden {
 	background-repeat: no-repeat;
 }
 
+.login-checkbox {
+	position: relative;
+	
+	padding-left: 30px;
+	
+	cursor: pointer;
+}
+
 .login-checkbox:hover,
 .login-checkbox:focus {
 	color: #663d15;
+}
+
+.login-checkbox input[type="checkbox"] + .checkbox-indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	width: 17px;
+	height: 18px;
+	
+	border: 2px solid #000000;
 }
 
 .restrore {
