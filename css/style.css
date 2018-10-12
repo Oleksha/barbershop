@@ -428,6 +428,42 @@ input[type="radio"].visually-hidden {
 	line-height: 42px;
 }
 
+.breadcrumbs {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 50px;
+	
+	list-style: none;
+}
+
+.breadcrumbs a {
+	position: relative;
+	margin-right: 40px;
+	
+	color: #000000;
+}
+
+.breadcrumbs a::after {
+	content: "";
+	
+	position: absolute;
+	top: 5px;
+	right: -24px;
+	
+	width: 8px;
+	height: 8px;
+	
+	background-color: #000000;
+	transform: rotate(45deg);
+	cursor: default;
+}
+
+.breadcrumbs-current {
+	color: #aba9a7;
+}
+
 .main-footer {
 	padding: 60px 0;
 	margin-top: 65px;
