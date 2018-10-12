@@ -119,6 +119,8 @@ input[type="radio"].visually-hidden {
 .inner-page .main-header-logo {
 	order: 0;
 	
+	width: 111px;
+	height: 24px;
 	padding: 23px 20px;
 }
 
@@ -157,6 +159,27 @@ input[type="radio"].visually-hidden {
 	background-color: #242424;
 }
 
+.site-navigation-current {
+	position: relative;
+}
+
+.site-navigation-current a:not([href]) {
+	background-color: #000000;
+}
+
+.site-navigation-current::after {
+	content: "";
+	
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	left: 20px;
+	
+	height: 5px;
+	
+	background-color: #ffffff;
+}
+
 .site-navigation {
 	display: flex;
 	flex-wrap: wrap;
@@ -167,6 +190,10 @@ input[type="radio"].visually-hidden {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 140px;
+}
+
+.inner-page .user-navigation {
+	margin-left: auto;
 }
 
 .user-navigation .login-link {
