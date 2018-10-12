@@ -535,6 +535,11 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 10px;
 }
 
+.login-form p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
 .login-form input[type="text"],
 .login-form input[type="password"] {
 	font: inherit;
