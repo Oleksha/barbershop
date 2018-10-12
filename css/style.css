@@ -116,6 +116,12 @@ input[type="radio"].visually-hidden {
 	order: 2;
 }
 
+.inner-page .main-header-logo {
+	order: 0;
+	
+	padding: 23px 20px;
+}
+
 .main-navigation-wrapper {
 	width: 100%;
 	margin-bottom: 60px;
