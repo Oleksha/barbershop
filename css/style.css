@@ -503,6 +503,17 @@ input[type="radio"].visually-hidden {
 	background-repeat: repeat;
 }
 
+.inner-page .main-footer {
+	margin-top: 45px;
+	
+	background-image: 
+		linear-gradient(to bottom, black, transparent),
+		url(../img/pattern-dark.jpg);
+	background-size: 10px 40px, auto;
+	background-position: 0 0;
+	background-repeat: repeat-x, repeat;
+}
+
 .main-footer .container {
 	display: flex;
 }
