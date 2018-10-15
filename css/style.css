@@ -492,6 +492,16 @@ input[type="radio"].visually-hidden {
 	margin: 14px 0;
 }
 
+.inner-content table {
+	border-collapse: collapse;
+}
+
+.inner-content td {
+	padding: 10px 15px;
+	
+	border: 2px solid #000000;
+}
+
 .main-footer {
 	padding: 60px 0;
 	margin-top: 65px;
