@@ -484,6 +484,10 @@ input[type="radio"].visually-hidden {
 	line-height: 24px;
 }
 
+.inner-content h2 + h3 {
+	margin-top: 30px;
+}
+
 .inner-content p {
 	margin: 14px 0;
 }
