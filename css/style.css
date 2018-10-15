@@ -502,6 +502,39 @@ input[type="radio"].visually-hidden {
 	border: 2px solid #000000;
 }
 
+.inner-content .big-heading {
+	display: flex;
+	align-items: center;
+	
+	margin-top: 55px;
+	margin-bottom: 65px;
+	
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+
+.big-heading::before,
+.big-heading::after {
+	content: "";
+	
+	flex-grow: 1;
+	flex-shrink: 0;
+	
+	width: 50px;
+	height: 2px;
+	
+	background: #000000;
+}
+
+.big-heading::before {
+	margin-right: 25px;
+}
+
+.big-heading::after {
+	margin-left: 25px;
+}
+
 .main-footer {
 	padding: 60px 0;
 	margin-top: 65px;
