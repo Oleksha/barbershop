@@ -603,6 +603,10 @@ input[type="radio"].visually-hidden {
 	margin-top: 0;
 }
 
+.short-text {
+	padding-right: 75px;
+}
+
 .main-footer {
 	padding: 60px 0;
 	margin-top: 65px;
