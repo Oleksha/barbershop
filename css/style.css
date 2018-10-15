@@ -549,6 +549,20 @@ input[type="radio"].visually-hidden {
 	padding-left: 20px;
 }
 
+.custom-list-1 li::before {
+	content: "";
+	
+	position: absolute;
+	top: 8px;
+	left: 0;
+	
+	width: 8px;
+	height: 8px;
+	
+	background-color: #000000;
+	transform: rotate(45deg);
+}
+
 .main-footer {
 	padding: 60px 0;
 	margin-top: 65px;
