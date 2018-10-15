@@ -575,6 +575,18 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 }
 
+.inner-columns {
+	display: flex;
+	justify-content: space-between;
+	
+	margin: 60px 0;
+}
+
+.inner-column-left,
+.inner-column-right {
+	width: 460px;
+}
+
 .main-footer {
 	padding: 60px 0;
 	margin-top: 65px;
