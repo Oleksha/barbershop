@@ -587,6 +587,11 @@ input[type="radio"].visually-hidden {
 	width: 460px;
 }
 
+.inner-column-left *:first-child,
+.inner-column-right *:first-child {
+	margin-top: 0;
+}
+
 .main-footer {
 	padding: 60px 0;
 	margin-top: 65px;
