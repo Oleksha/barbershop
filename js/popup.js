@@ -1,6 +1,7 @@
 var link = document.querySelector(".login-link");
+var popup = document.querySelector(".modal-login");
 
 link.addEventListener("click", function(evt) {
 	evt.preventDefault();
-	console.log("Клик по ссылке ввод");
+	popup.classList.add("modal-show");
 });
