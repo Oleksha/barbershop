@@ -936,3 +936,15 @@ input[type="radio"].visually-hidden {
 .modal-map p {
 	margin: 0;
 }
+/*Магазин*/
+.shop-container {
+	display: flex;
+}
+
+.shop-left-columns {
+	width: 230px;
+}
+
+.shop-right-columns {
+	width: 720px;
+}
