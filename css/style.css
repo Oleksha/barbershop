@@ -965,6 +965,8 @@ input[type="radio"].visually-hidden {
 }
 
 .manufacturers label {
+	display: inline-block;
+	vertical-align: middle;
 	position: relative;
 	
 	padding-left: 30px;
