@@ -945,6 +945,20 @@ input[type="radio"].visually-hidden {
 	width: 230px;
 }
 
+.manufacturers {
+	margin: 0;	
+	padding: 0;
+	
+	list-style: none;
+}
+
+.product-groups {
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
+}
+
 .shop-right-columns {
 	width: 720px;
 }
