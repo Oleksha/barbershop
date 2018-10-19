@@ -945,18 +945,34 @@ input[type="radio"].visually-hidden {
 	width: 230px;
 }
 
+.filters h2 {
+	margin-bottom: 30px;
+	
+	font-size: 24px;
+	line-height: 30px;
+}
+
 .manufacturers {
 	margin: 0;	
+	margin-bottom: 55px;
 	padding: 0;
 	
 	list-style: none;
 }
 
+.manufacturers li {	
+	margin-bottom: 20px;
+}
+
 .product-groups {
 	margin: 0;
+	margin-bottom: 55px;
 	padding: 0;
 	
 	list-style: none;
+}
+.product-groups li {	
+	margin-bottom: 20px;
 }
 
 .shop-right-columns {
