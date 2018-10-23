@@ -83,6 +83,8 @@ input[type="radio"].visually-hidden {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
+	
+	border: 2px solid rgba(128,55,255,1);
 }
 
 .main-header {
@@ -939,17 +941,24 @@ input[type="radio"].visually-hidden {
 /*Магазин*/
 .shop-container {
 	display: flex;
+	
 }
 
 .shop-left-columns {
 	width: 230px;
+	
+	background-color: rgba(128,43,49,0.50);
+	border: 2px solid rgba(128,43,49,1);
 }
 
 .filters h2 {
+	margin: 0;
 	margin-bottom: 30px;
 	
 	font-size: 24px;
 	line-height: 30px;
+	
+	background-color: rgba(128,43,49,0.50);
 }
 
 .manufacturers {
@@ -1085,7 +1094,15 @@ input[type="radio"].visually-hidden {
 
 .shop-right-columns {
 	width: 720px;
+	margin-right: -10px;
 	
 	background-color: rgba(90,167,90,0.50);
 	border: 2px solid rgba(90,167,90,1);
+}
+
+.catalog {
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
 }
