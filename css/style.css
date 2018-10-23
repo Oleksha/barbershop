@@ -1085,4 +1085,7 @@ input[type="radio"].visually-hidden {
 
 .shop-right-columns {
 	width: 720px;
+	
+	background-color: rgba(90,167,90,0.50);
+	border: 2px solid rgba(90,167,90,1);
 }
