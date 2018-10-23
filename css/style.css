@@ -83,8 +83,6 @@ input[type="radio"].visually-hidden {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-	
-	border: 2px solid rgba(128,55,255,1);
 }
 
 .main-header {
@@ -946,19 +944,15 @@ input[type="radio"].visually-hidden {
 
 .shop-left-columns {
 	width: 230px;
-	
-	background-color: rgba(128,43,49,0.50);
-	border: 2px solid rgba(128,43,49,1);
 }
 
 .filters h2 {
 	margin: 0;
+	margin-top: 3px;
 	margin-bottom: 30px;
 	
 	font-size: 24px;
 	line-height: 30px;
-	
-	background-color: rgba(128,43,49,0.50);
 }
 
 .manufacturers {
@@ -1094,13 +1088,12 @@ input[type="radio"].visually-hidden {
 
 .shop-right-columns {
 	width: 720px;
-	margin-right: -10px;
-	
-	background-color: rgba(90,167,90,0.50);
-	border: 2px solid rgba(90,167,90,1);
+	margin-right: -14px;
 }
 
 .catalog {
+	display: flex;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 	
@@ -1116,4 +1109,31 @@ input[type="radio"].visually-hidden {
 	
 	background-color: #ffffff;
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.product-name {
+	margin: 0;
+	padding: 10px 16px;
+	
+	text-transform: none;
+}
+
+.product-price {
+	display: flex;
+}
+
+.product-price p {
+	margin: 0;
+	padding: 10px 30px;
+	
+	flex-grow: 1;
+	flex-shrink: 0;
+	
+	text-align: center;
+	
+	background-color: #e5e5e5;
+}
+
+.product-price .button {
+	margin-right: 0;
 }
