@@ -949,7 +949,7 @@ input[type="radio"].visually-hidden {
 .filters h2 {
 	margin: 0;
 	margin-top: 3px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	
 	font-size: 24px;
 	line-height: 30px;
@@ -964,7 +964,7 @@ input[type="radio"].visually-hidden {
 }
 
 .manufacturers li {	
-	margin-bottom: 20px;
+	margin-bottom: 14px;	
 }
 
 .manufacturers label {
@@ -1028,7 +1028,7 @@ input[type="radio"].visually-hidden {
 	list-style: none;
 }
 .product-groups li {	
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 }
 
 .product-groups label {
@@ -1121,11 +1121,12 @@ input[type="radio"].visually-hidden {
 
 .product-price {
 	display: flex;
+	padding: 0 16px 16px;
 }
 
 .product-price p {
 	margin: 0;
-	padding: 10px 30px;
+	padding: 10px 0;
 	
 	flex-grow: 1;
 	flex-shrink: 0;
@@ -1134,7 +1135,6 @@ input[type="radio"].visually-hidden {
 	
 	background-color: #e5e5e5;
 }
-
 .product-price .button {
 	margin-right: 0;
 }
