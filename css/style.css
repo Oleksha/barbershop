@@ -1106,3 +1106,14 @@ input[type="radio"].visually-hidden {
 	
 	list-style: none;
 }
+
+.catalog li {
+	margin: 10px;
+	margin-bottom: 20px;
+	
+	width: 220px;
+	color: #000000;
+	
+	background-color: #ffffff;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
