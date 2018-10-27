@@ -1091,7 +1091,7 @@ input[type="radio"].visually-hidden {
 	margin-right: -14px;
 }
 
-.catalog {
+.catalog-list {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0;
@@ -1101,7 +1101,7 @@ input[type="radio"].visually-hidden {
 	list-style: none;
 }
 
-.catalog li {
+.catalog-list li {
 	margin: 10px;
 	margin-bottom: 20px;
 	
