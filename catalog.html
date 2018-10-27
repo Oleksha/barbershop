@@ -40,77 +40,55 @@
         <div class="shop-left-columns">
           <section class="filters">
 						<h2 class="visually-hidden">Фильтр товаров</h2>
-						<!-- Здесь будет форма -->
-            <h2>Производители</h2>
-            <ul class="manufacturers">
-							<li>
-								<label>
-									<input type="checkbox" name="manufacturer" class="visually-hidden" checked>
-									<span class="checkbox-indicator"></span>
-									Baxter Of California
-								</label>
-							</li>              
-              <li>
-								<label>
-									<input type="checkbox" name="manufacturer" class="visually-hidden">
-									<span class="checkbox-indicator"></span>
-									Mr Natty
-								</label>
-							</li>
-              <li>
-								<label>
-									<input type="checkbox" name="manufacturer" class="visually-hidden" checked>
-									<span class="checkbox-indicator"></span>
-									Suavecito
-								</label>
-							</li>
-              <li>
-								<label>
-									<input type="checkbox" name="manufacturer" class="visually-hidden">
-									<span class="checkbox-indicator"></span>
-									Malin+Goetz
-								</label>
-							</li>
-              <li>
-								<label>
-									<input type="checkbox" name="manufacturer" class="visually-hidden">
-									<span class="checkbox-indicator"></span>
-									Murray's
-								</label>
-							</li>
-              <li>
-								<label>
-									<input type="checkbox" name="manufacturer" class="visually-hidden" checked>
-									<span class="checkbox-indicator"></span>
-									American Crew
-								</label>
-							</li>
-            </ul>
-            <h2>Группы товаров:</h2>
-            <ul class="product-groups">
-              <li>
-								<label>
-									<input type="radio" name="product-group" class="visually-hidden">
-									<span class="radio-indicator"></span>
-									Бритвенные<br> принадлежности
-								</label>
-							</li>
-              <li>
-								<label>
-									<input type="radio" name="product-group" class="visually-hidden" checked>
-									<span class="radio-indicator"></span>
-									Средства для ухода
-								</label>
-							</li>
-              <li>
-								<label>
-									<input type="radio" name="product-group" class="visually-hidden">
-									<span class="radio-indicator"></span>
-									Аксессуары
-								</label>
-							</li>
-            </ul>
-            <button class="button" type="button">Показать</button>
+						<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+							<fieldset>
+								<legend>Производители:</legend>
+								<ul>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+										<label for="filter-baxter-of-california">Baxter Of California</label>
+									</li>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" id="filter-mr-natty">
+										<label for="filter-mr-natty">Mr Natty</label>
+									</li>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" id="filter-suavecito" checked>
+										<label for="filter-suavecito">Suavecito</label>
+									</li>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+										<label for="filter-malin-goetz">Malin+Goetz</label>
+									</li>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays">
+										<label for="filter-murrays">Murray's</label>
+									</li>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" id="filter-american-crew" checked>
+										<label for="filter-american-crew">American Crew</label>
+									</li>
+								</ul>
+							</fieldset>
+							<fieldset>
+								<legend>Группы товаров:</legend>
+								<ul>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" id="filter-shaving">
+										<label for="filter-shaving">Бритвенные принадлежности</label>
+									</li>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care" id="filter-care" checked>
+										<label for="filter-care">Средства для ухода</label>
+									</li>
+									<li class="filter-option">
+										<input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories" id="filter-accessories">
+										<label for="filter-accessories">Аксессуары</label>
+									</li>
+								</ul>
+							</fieldset>
+							<button type="submit" class="filter-button button">Показать</button>
+						</form>
           </section>
         </div>
         <div class="shop-right-columns">
