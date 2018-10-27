@@ -1101,7 +1101,7 @@ input[type="radio"].visually-hidden {
 	list-style: none;
 }
 
-.catalog-list li {
+.catalog-item {
 	margin: 10px;
 	margin-bottom: 20px;
 	
