@@ -90,7 +90,7 @@ input[type="radio"].visually-hidden {
 }
 
 .inner-page .main-header {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 	
 	background-color: #000000;
 }
@@ -421,6 +421,10 @@ input[type="radio"].visually-hidden {
 }
 
 .page-title {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0;
+	
 	font-size: 30px;
 	line-height: 42px;
 }
@@ -961,12 +965,40 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 }
 /*Магазин*/
+
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.filters {
+	width: 180px;
+}
+
+.catalog {
+	width: 700px;
+}
+
 .catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+	
 	list-style: none;
 }
 
 .catalog-item {
+	width: 220px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item:nth-child(3n) {
+	margin-right: 0;
 }
 
 .catalog-item:hover {
@@ -1001,6 +1033,9 @@ input[type="radio"].visually-hidden {
 }
 
 .pagination-list {
+	padding: 0;
+	margin: 0;
+	
 	list-style: none;
 }
 
