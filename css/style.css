@@ -1065,6 +1065,10 @@ input[type="radio"].visually-hidden {
 	background-color: #ffffff;
 }
 /*Карточка товара*/
+.product-photos {
+	width: 460px;
+}
+
 .product-photo-preview {
 	list-style: none;
 }
@@ -1075,6 +1079,10 @@ input[type="radio"].visually-hidden {
 
 .product-photo-full {
 	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+	width: 390px;
 }
 
 .product-article {
