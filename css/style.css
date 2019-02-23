@@ -434,12 +434,15 @@ input[type="radio"].visually-hidden {
 	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 50px;
+	margin-bottom: 50px;	
 	
 	list-style: none;
 }
 
 .breadcrumbs a {
+	position: relative;
+	margin-right: 45px;
+	
 	color: #000000;
 }
 
@@ -453,7 +456,7 @@ input[type="radio"].visually-hidden {
 	
 	position: absolute;
 	top: 5px;
-	right: -24px;
+	right: -27px;
 	
 	width: 8px;
 	height: 8px;
@@ -468,28 +471,65 @@ input[type="radio"].visually-hidden {
 }
 
 .filter fieldset {
+	margin: 0;
+	padding: 0;
+	
 	border: none;
 }
 
 .filter legend {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+
 	font-size: 24px;
 	line-height: 30px;
 }
 
 .filter ul {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 50px;
+	
 	list-style: none;
 	line-height: 18px;
 }
 
-.filter-input:hover + label,
-.filter-input:focus + label {
+.filter li {
+	
+	margin-bottom: 18px;
+}
+
+.filter-input ~ label {
+	padding-left: 40px;
+	
+	cursor: pointer;
+}
+
+.filter-input:hover ~ label,
+.filter-input:focus ~ label {
 	color: #663d15;
 }
 
-.filter-input:disabled + label {
+.filter-input:disabled ~ label {
 	color: #000000;
 	
 	opacity: 0.5;
+}
+
+.filter-option {
+	position: relative;
+}
+
+.filter-input-checkbox + .checkbox-indicator {
+	position: absolute;
+	top: -8;
+	left: 8;
+	
+	width: 17px;
+	height: 18px;
+	
+	border: 2px solid red;
 }
 
 .inner-content {
